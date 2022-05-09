@@ -1,2 +1,2 @@
-# currency-convertor
-REACT Currency Convertor project
+# REACT Currency Convertor project
+
