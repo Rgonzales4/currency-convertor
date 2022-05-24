@@ -1,2 +1,0 @@
-# REACT Currency Convertor project
-
