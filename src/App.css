@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.numberInput {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.25rem;
+  width: 10em;
+}
+
+select {
+  margin-left: 0.5rem;
+  border-radius: 0.3rem;
+  padding: 0.25rem;
+}
+
+.equals {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.5rem;
+}
