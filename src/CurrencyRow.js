@@ -18,7 +18,11 @@ export default function CurrencyRow(props) {
           value={amount}
           onChange={onChangeAmount}
         />
-        <select value={selectedCurrency} onChange={onChangeCurrency}>
+        <select
+          value={selectedCurrency}
+          onChange={onChangeCurrency}
+          multiple={false}
+        >
           {currencyOptions.map((c) => (
             <option key={c} value={c}>
               {c}
